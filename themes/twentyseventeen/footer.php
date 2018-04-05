@@ -14,33 +14,52 @@
 
 ?>
 
-		</div><!-- #content -->
+</main>
 
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="wrap">
-				<?php
-				get_template_part( 'template-parts/footer/footer', 'widgets' );
 
-				if ( has_nav_menu( 'social' ) ) : ?>
-					<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentyseventeen' ); ?>">
-						<?php
-							wp_nav_menu( array(
-								'theme_location' => 'social',
-								'menu_class'     => 'social-links-menu',
-								'depth'          => 1,
-								'link_before'    => '<span class="screen-reader-text">',
-								'link_after'     => '</span>' . twentyseventeen_get_svg( array( 'icon' => 'chain' ) ),
-							) );
-						?>
-					</nav><!-- .social-navigation -->
-				<?php endif;
+<footer role="contentinfo">
+	<div class="subscribe">
+		<h2>Keep up with the latest Lightfoot &amp; Wolfville news</h2>
+		<div>
+			<nav class="social">
+				<ul>
+					<li class="twitter"><a href="https://twitter.com/chateaudesours">Follow us on Twitter</a></li>
+					<li class="instagram"><a href="http://instagram.com/chateaudesours">Follow us on Instagram</a></li>
+				</ul>
+			</nav>
+			<form action="#" method="post" name="mc-embedded-subscribe-form" target="_blank" id="newsletter-signup" onSubmit="ga('send', 'event', 'Newsletter Form', 'Newsletter Signup');">
+				<label for="mce-EMAIL">Email Address </label>
+				<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your email address" required>
+				<input type="text" class="hidden" name="b_1056293da33251bda9a959d5d_07f57a37a0" value="">
+				<button type="submit" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+			</form>
+		</div>
+	</div>
+	<nav role="navigation" class="jump-to">
+		<ul id="menu-main-navigation-1" class="menu">
+			<li class="current-menu-item current_page_item"><a href="/">Home</a></li>
+			<li><a href="#">Our Wines</a></li>
+			<li><a href="#">Weddings</a></li>
+			<li><a href="#">Journal</a></li>
+			<li><a href="#">Visit</a></li>
+		</ul>		
+	</nav>
 
-				get_template_part( 'template-parts/footer/site', 'info' );
-				?>
-			</div><!-- .wrap -->
-		</footer><!-- #colophon -->
-	</div><!-- .site-content-contain -->
-</div><!-- #page -->
+	<section class="vcard">
+		<h1 class="fn org"><em>Lightfoot &amp; Wolfville</em> Vineyards</h1>
+
+		<div class="adr">
+			<span class="street-address">11143 Evangeline Trail</span><br>
+			<span class="locality">Wolfville</span>, <span class="region">Nova Scotia</span><br>
+			<span class="postal-code">B4P&nbsp;2R1</span> <span class="country-name">Canada</span><br>
+		</div>
+		<span class="tel">+1 (902) 542-7774</span><br>
+		<a class="email" href="&#109;ailto:info&#064;chateaudesours.com">email us</a> | <a class="press-kit" href="/press">Press kit</a>
+	</section>
+
+	<small class="copyright">&copy; 2018 - All rights reserved Lightfoot &amp; Wolfville</small>
+</footer>
+
 <?php wp_footer(); ?>
 
 </body>
