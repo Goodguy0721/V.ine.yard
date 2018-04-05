@@ -16,8 +16,8 @@ get_header(); ?>
 
 <section id="welcome" class="parallax fullscreen">
 	<div class="intro fade">
-		<h1>Lightfoot &amp; Wolfville</h1>
-		<p><em>Growing wines</em> that faithfully express our terroir in <em>Nova Scotia Wine Country</em></p>
+		<h1>CHÂTEAU DE SOURS Vineyard</h1>
+		<p><em>WELCOME</em> TO <em>CHÂTEAU DE SOURS</em></p>
 		<span class="scroll-tip">Scroll</span>
 	</div>
 	<article>
