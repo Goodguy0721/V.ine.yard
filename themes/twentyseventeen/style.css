@@ -2503,7 +2503,7 @@ body.press {
 	border-top: 1px dotted #A19589
 }
 .no-svg .social ul li a {
-	background: url(assets/images/sprite.png) center -6.8em no-repeat #A19589;
+	background: url(assets/images/sprite.svg) center -6.8em no-repeat #A19589;
 	background-size: 12.5em 41em
 }
 .no-svg .social ul li.twitter a {
@@ -2522,17 +2522,17 @@ body.press {
 	background-size: contain
 }
 .no-svg main>section.blockquote .quote .listen .play {
-	background: url(assets/images/sprite.png) center -49em no-repeat;
+	background: url(assets/images/sprite.svg) center -49em no-repeat;
 	background-size: 25em 82em
 }
 .no-svg main>section#the-land .intro:before {
-	background-image: url(assets/images/logo-compact-watermark.png)
+	background-image: url(assets/images/logo-compact-watermark.svg)
 }
 .no-svg main>section#the-name .logo-breakdown img {
 	max-width: 100%
 }
 .no-svg main>section#the-name .logo-breakdown ul li {
-	background: url(assets/images/sprite.png) -10em -40em no-repeat;
+	background: url(assets/images/sprite.svg) -10em -40em no-repeat;
 	background-size: 25em 82em
 }
 .no-svg main>section#the-name .logo-breakdown ul li.thistle {
@@ -2798,7 +2798,7 @@ body.press {
 		margin: 0 auto 2em;
 		text-indent: -9999em;
 		color: transparent;
-		background: url(assets/images/logo-compact-green.svg) center center no-repeat;
+		background: url(assets/images/logo-compact-green.png) center center no-repeat;
 		background-size: auto 100%
 	}
 	body>header.collapsable {
@@ -2960,7 +2960,7 @@ body.press {
 		padding: 0;
 		height: 6em;
 		margin: 3em auto 0;
-		background: url(assets/images/logo.svg) center center no-repeat
+		background: url(assets/images/logo.gif) center center no-repeat
 	}
 	.home main>section#welcome .intro h1+p {
 		max-width: 24em;
@@ -3227,7 +3227,7 @@ body.press {
 		padding: 0;
 		height: 6em;
 		margin: 0 auto;
-		background: url(assets/images/logo.svg) center center no-repeat
+		background: url(assets/images/logo.gif) center center no-repeat
 	}
 	.press main>section#press-intro .intro h1+p {
 		margin: .75em 0 0;
@@ -3410,7 +3410,7 @@ body.press {
 		padding: 1em 2%
 	}
 	.no-svg .social ul li a {
-		background: url(assets/images/sprite.png) center -6.8em no-repeat #A19589;
+		background: url(assets/images/sprite.svg) center -6.8em no-repeat #A19589;
 		background-size: 12.5em 41em
 	}
 	.no-svg .social ul li.twitter a {
@@ -3420,7 +3420,7 @@ body.press {
 		background-position: center -6.6em
 	}
 	.no-svg>header.collapsable .trigger:after {
-		background: url(assets/images/sprite.png) center -12.9em no-repeat;
+		background: url(assets/images/sprite.svg) center -12.9em no-repeat;
 		background-size: 12.5em 41em;
 		height: 3.125em
 	}
@@ -3429,7 +3429,7 @@ body.press {
 		max-width: 11em;
 		padding: 0;
 		margin: 0 auto;
-		background-image: url(assets/images/logo.png);
+		background-image: url(assets/images/logo.gif);
 		background-size: 100% auto
 	}
 	.no-svg .home main>section#the-name .intro h1+p {
@@ -3514,8 +3514,8 @@ body.press {
 		background-size: 10.923em 14.14em
 	}
 	.home main>section#welcome article {
-		background: url(assets/images/logo-desktop-watermark.svg) center 6.75em no-repeat fixed #FFF;
-		background-size: 45.2em auto
+		background: url(assets/images/logo-desktop-watermark.png) center 9.75em no-repeat fixed #FFF;
+		background-size: 14.2em auto
 	}
 	.home main>section#welcome article:before {
 		content: '';
@@ -3703,7 +3703,7 @@ body.press {
 		margin: 0 auto
 	}
 	.home main>section#welcome article {
-		background: url(assets/images/logo-desktop-watermark.svg) center 2.4em no-repeat fixed #FFF;
+		background: url(assets/images/logo-desktop-watermark.png) center 2.4em no-repeat fixed #FFF;
 		background-size: 45.1em auto
 	}
 }

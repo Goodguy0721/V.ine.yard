@@ -23,7 +23,7 @@
 </head>
 <body data-rsssl=1 class="home page-template-default page page-id-296 lightfootandwolfville.com">
 	<header role="banner" id="navigation">
-		<a href="/" class="logo">Lightfoot &amp; Wolfville</a>
+		<a href="/" class="logo">Château de Sours</a>
 		<nav role="navigation" class="jump-to">
 			<ul id="menu-main-navigation" class="menu"><li class="current-menu-item current_page_item"><a href="/">Home</a></li>
                 <li><a href="#">Our Wines</a></li>
@@ -34,13 +34,13 @@
         </nav>
 
 		<section class="vcard">
-			<a href="/" class="fn org"><em>Lightfoot &amp; Wolfville</em> Vineyards</a>
+			<a href="/" class="fn org"><em>Château de Sours</em> Vineyards</a>
 			<div class="adr">
-				<span class="street-address">11143 Evangeline Trail</span><br>
-				<span class="locality">Wolfville</span>, <span class="region">Nova Scotia</span><br>
-				<span class="postal-code">B4P&nbsp;2R1</span> <span class="country-name">Canada</span><br>
+				<span class="street-address">33750 </span><br>
+				<span class="locality">Saint-Quentin-de-Baron</span>, <br>
+				<span class="country-name">France</span><br>
 			</div>
-			<span class="tel">+1 (902) 542-7774</span><br>
+			<span class="tel">+33(0)5 57 24 10 81</span><br>
 			<a class="email" href="&#109;ailto:info&#064;chateaudesours.com">email us</a>
 		</section>
 

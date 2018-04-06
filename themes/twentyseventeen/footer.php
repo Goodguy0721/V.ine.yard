@@ -19,7 +19,7 @@
 
 <footer role="contentinfo">
 	<div class="subscribe">
-		<h2>Keep up with the latest Lightfoot &amp; Wolfville news</h2>
+		<h2>Keep up with the latest Château de Sours Vineyards news</h2>
 		<div>
 			<nav class="social">
 				<ul>
@@ -46,18 +46,18 @@
 	</nav>
 
 	<section class="vcard">
-		<h1 class="fn org"><em>Lightfoot &amp; Wolfville</em> Vineyards</h1>
+		<h1 class="fn org"><em>Château de Sours</em> Vineyards</h1>
 
 		<div class="adr">
-			<span class="street-address">11143 Evangeline Trail</span><br>
-			<span class="locality">Wolfville</span>, <span class="region">Nova Scotia</span><br>
-			<span class="postal-code">B4P&nbsp;2R1</span> <span class="country-name">Canada</span><br>
+			<span class="street-address">33750 </span><br>
+			<span class="locality">Saint-Quentin-de-Baron</span>, <br>
+			<span class="country-name">France</span><br>
 		</div>
-		<span class="tel">+1 (902) 542-7774</span><br>
+		<span class="tel">+33(0)5 57 24 10 81</span><br>
 		<a class="email" href="&#109;ailto:info&#064;chateaudesours.com">email us</a> | <a class="press-kit" href="/press">Press kit</a>
 	</section>
 
-	<small class="copyright">&copy; 2018 - All rights reserved Lightfoot &amp; Wolfville</small>
+	<small class="copyright">&copy; 2018 - All rights reserved Château de Sours</small>
 </footer>
 
 <?php wp_footer(); ?>
