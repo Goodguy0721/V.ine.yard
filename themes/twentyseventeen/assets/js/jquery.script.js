@@ -1696,8 +1696,11 @@ var APP = function() {
             l.toggleClass("collapsed")
         })
     }, r.triggerAnimation = function(e, t, o) {
-        var n = e.offsetParent.offsetTop + e.offsetTop + t;
-        r.scroll_top + r.window_height > n && n + e.offsetHeight > r.scroll_top && o()
+        if(e != null) {
+            var n = e.offsetParent.offsetTop + e.offsetTop + t;
+            r.scroll_top + r.window_height > n && n + e.offsetHeight > r.scroll_top && o()
+        }
+        
     }, r.updateWindowTarget = function(e) {
         var t = window.location.href,
             o = t.indexOf("#"); - 1 !== o && (t = t.replace(t.substring(o), "")), t += e, window.location.href = t
@@ -1787,7 +1790,8 @@ $(function() {
             var e = window.location.href,
                 t = e.indexOf("#");
             e = -1 !== t ? e.substring(t) : "#welcome", setTimeout(function() {
-                Math.abs($(e).only().offsetTop - APP.scroll_top) < 100 && $(e + " .scroll-tip").addClass("activated")
+                if(typeof($(e).only()) != 'undefined')
+                    Math.abs($(e).only().offsetTop - APP.scroll_top) < 100 && $(e + " .scroll-tip").addClass("activated")
             }, 2e3)
         };
         c(), $(".yield").each(function(e) {
@@ -1829,10 +1833,12 @@ $(function() {
                 }
             },
             m = function() {
-                APP.browser.viewportSize > 1 && !APP.browser.isTouch && ($("#welcome").only().style.paddingTop = l + "px"), $(".fullscreen").each(function(e) {
-                    var t = $(e).find(".intro").only();
-                    t.style.minHeight = l + "px"
-                })
+                if (typeof($("#welcome").only()) != 'undefined') {
+                    APP.browser.viewportSize > 1 && !APP.browser.isTouch && ($("#welcome").only().style.paddingTop = l + "px"), $(".fullscreen").each(function(e) {
+                        var t = $(e).find(".intro").only();
+                        t.style.minHeight = l + "px"
+                    })
+                }
             },
             w = function() {
                 APP.window_height < 600 && ($("#welcome .intro h1").only().style.margin = "0 auto")
@@ -1842,15 +1848,15 @@ $(function() {
         }), g(), m(), h(), w();
         var v = $("footer"),
             P = $(".notice");
-        APP.onScroll(function() {
-            APP.triggerAnimation(v.only(), 200, function() {
-                $("header .trigger").addClass("hidden")
-            })
-        }), APP.onScroll(function() {
-            APP.triggerAnimation(P.only(), -APP.window_height, function() {
-                $("header .trigger").removeClass("hidden")
-            })
-        });
+        // APP.onScroll(function() {
+        //     APP.triggerAnimation(v.only(), 200, function() {
+        //         $("header .trigger").addClass("hidden")
+        //     })
+        // }), APP.onScroll(function() {
+        //     APP.triggerAnimation(P.only(), -APP.window_height, function() {
+        //         $("header .trigger").removeClass("hidden")
+        //     })
+        // });
         var y = $(".quote"),
             b = y.find(".quote-player"),
             A = b.find("audio").only(),

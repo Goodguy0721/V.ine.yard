@@ -21,15 +21,15 @@
 
 <?php wp_head(); ?>
 </head>
-<body data-rsssl=1 class="home page-template-default page page-id-296 lightfootandwolfville.com">
+<body data-rsssl=1 <?php body_class();?>>
 	<header role="banner" id="navigation">
 		<a href="/" class="logo">Château de Sours</a>
 		<nav role="navigation" class="jump-to">
-			<ul id="menu-main-navigation" class="menu"><li class="current-menu-item current_page_item"><a href="/">Home</a></li>
-                <li><a href="#">Our Wines</a></li>
-                <li><a href="#">Weddings</a></li>
-                <li><a href="#">Journal</a></li>
-                <li><a href="#">Visit</a></li>
+			<ul id="menu-main-navigation" class="menu"><li class="current-menu-item current_page_item"><a href="<?php echo get_home_url();?>">Home</a></li>
+                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Wines')));?>">Our Wines</a></li>
+                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Weddings')));?>">Weddings</a></li>
+                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Journal')));?>">Journal</a></li>
+                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Visit')));?>">Visit</a></li>
             </ul>
         </nav>
 
@@ -52,5 +52,3 @@
 			</ul>
 		</nav>
 	</header>
-
-	<main role="main">

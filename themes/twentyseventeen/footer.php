@@ -14,8 +14,6 @@
 
 ?>
 
-</main>
-
 
 <footer role="contentinfo">
 	<div class="subscribe">

@@ -1323,15 +1323,18 @@ body.press {
 	padding: 0
 }
 .blog,
-.post-type-archive-wine {
+.post-type-archive-wine,
+.page-template-page-wines {
 	background: #171616
 }
 .blog main,
-.post-type-archive-wine main {
+.post-type-archive-wine main,
+.page-template-page-wines main {
 	padding: 0
 }
 .blog main h1,
-.post-type-archive-wine main h1 {
+.post-type-archive-wine main h1,
+.page-template-page-wines main h1 {
 	position: absolute;
 	width: 90%;
 	margin: 1.5em 5% 0;
@@ -2641,7 +2644,8 @@ body.press {
 		font-size: 1.125em
 	}
 	.blog main h1,
-	.post-type-archive-wine main h1 {
+	.post-type-archive-wine main h1,
+	.page-template-page-wines main h1 {
 		font-size: 2em
 	}
 	.home main>section {
@@ -2899,12 +2903,14 @@ body.press {
 	.home main,
 	.post-type-archive-wine main,
 	.press main,
-	.weddings main {
+	.weddings main,
+	.page-template-page-wines main {
 		max-width: 100%;
 		margin: 0
 	}
 	.blog main h1,
-	.post-type-archive-wine main h1 {
+	.post-type-archive-wine main h1,
+	.page-template-page-wines main h1 {
 		font-size: 2.5em
 	}
 	.home main>section {
@@ -3474,7 +3480,8 @@ body.press {
 		line-height: 1.65
 	}
 	.blog main h1,
-	.post-type-archive-wine main h1 {
+	.post-type-archive-wine main h1,
+	.page-template-page-wines main h1 {
 		font-size: 3.5em
 	}
 	.home main>section {
@@ -3673,7 +3680,8 @@ body.press {
 		display: none!important
 	}
 	body.blog main h1,
-	body.post-type-archive-wine main h1 {
+	body.post-type-archive-wine main h1,
+	body.page-template-page-wines main h1 {
 		width: 100%;
 		padding: 0 420px 0 100px;
 		margin: 1.5em 0 0;

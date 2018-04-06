@@ -565,25 +565,25 @@ add_filter( 'widget_tag_cloud_args', 'twentyseventeen_widget_tag_cloud_args' );
 /**
  * Create post type - vines
  */
-function create_vines_post_type() {
+function create_wines_post_type() {
 	/**
 	 * Vines Post Type Resources
 	 */
 	$labels = array(
-		'name'               => __( 'Vines', 'tt' ),
-		'singular_name'      => __( 'Vines', 'tt' ),
-		'menu_name'          => __( 'Vines', 'tt' ),
-		'name_admin_bar'     => __( 'Vines', 'tt' ),
+		'name'               => __( 'Wines', 'tt' ),
+		'singular_name'      => __( 'Wines', 'tt' ),
+		'menu_name'          => __( 'Wines', 'tt' ),
+		'name_admin_bar'     => __( 'Wines', 'tt' ),
 		'add_new'            => __( 'Add New', 'tt' ),
-		'add_new_item'       => __( 'Add New Vine', 'tt' ),
-		'new_item'           => __( 'New Vine', 'tt' ),
-		'edit_item'          => __( 'Edit Vine', 'tt' ),
-		'view_item'          => __( 'View Vine', 'tt' ),
-		'all_items'          => __( 'All Products', 'tt' ),
-		'search_items'       => __( 'Search Vines', 'tt' ),
-		'parent_item_colon'  => __( 'Parent Vines:', 'tt' ),
-		'not_found'          => __( 'No Vines found.', 'tt' ),
-		'not_found_in_trash' => __( 'No Vines found in Trash.', 'tt' )
+		'add_new_item'       => __( 'Add New Wine', 'tt' ),
+		'new_item'           => __( 'New Wine', 'tt' ),
+		'edit_item'          => __( 'Edit Wine', 'tt' ),
+		'view_item'          => __( 'View Wine', 'tt' ),
+		'all_items'          => __( 'All Wines', 'tt' ),
+		'search_items'       => __( 'Search Wines', 'tt' ),
+		'parent_item_colon'  => __( 'Parent Wines:', 'tt' ),
+		'not_found'          => __( 'No Wines found.', 'tt' ),
+		'not_found_in_trash' => __( 'No Wines found in Trash.', 'tt' )
 	);
 
 	$args = array(
@@ -594,7 +594,7 @@ function create_vines_post_type() {
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'vine' ),
+		'rewrite'            => array( 'slug' => 'wine' ),
 		'capability_type'    => 'post',
 		'has_archive'        => false,
 		'hierarchical'       => false,
@@ -605,7 +605,7 @@ function create_vines_post_type() {
 
 	register_post_type( 'vine', $args );
 }
-add_action('init', 'create_vines_post_type');
+add_action('init', 'create_wines_post_type');
 
 /**
  * Remove admin bar

@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-
+<main role="main">
 <section id="welcome" class="parallax fullscreen">
 	<div class="intro fade">
 		<h1>CHÂTEAU DE SOURS Vineyard</h1>
@@ -73,7 +73,7 @@ get_header(); ?>
 		<h1>The Wine</h1>
 		<p>Cabernet Franc and Petit Verdot for red wines; Sauvignon Blanc as well as Semillon for white wines</p>
 
-		<a class="button white" href="/wines">Explore our wines</a>
+		<a class="button white" href="<?php echo esc_url(get_permalink(get_page_by_title('Wines')));?>">Explore our wines</a>
 		<span class="scroll-tip">Scroll</span>
 	</div>
 </section>
@@ -345,6 +345,6 @@ get_header(); ?>
 		</div>
 	</article>
 </section>
-
+</main>
 
 <?php get_footer();
