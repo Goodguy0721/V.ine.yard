@@ -3983,8 +3983,8 @@ body.press {
 	}
 	#card-page .buy__here ul,
 	#card-suggestions .buy__here ul {
-		margin: 0;
-		padding: 0;
+		/* margin: 0;
+		padding: 0; */
 		list-style: none
 	}
 	#card-page .buy__here ul li,
