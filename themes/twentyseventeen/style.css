@@ -1318,6 +1318,7 @@ body.press {
 .home main,
 .press main,
 .single-wine main,
+.single-vine main,
 .weddings main {
 	width: 100%;
 	padding: 0
@@ -2329,6 +2330,7 @@ body.press {
 	margin: .75em 0
 }
 .single-wine header,
+.single-vine header,
 .weddings header {
 	position: relative;
 	height: 20em;
@@ -2340,6 +2342,7 @@ body.press {
 	animation: ungrayscale 3s ease .5s 1 normal forwards
 }
 .single-wine header h1,
+.single-vine header h1,
 .weddings header h1 {
 	position: relative;
 	top: 100%;
@@ -2349,12 +2352,14 @@ body.press {
 	letter-spacing: .05em
 }
 .single-wine header h1 .wine-meta,
+.single-vine header h1 .wine-meta,
 .weddings header h1 .wine-meta {
 	display: block;
 	font-family: proxima-nova, Arial, sans-serif;
 	font-size: .6em
 }
 .single-wine header .links,
+.single-vine header .links,
 .weddings header .links {
 	position: absolute;
 	bottom: 0;
@@ -2364,24 +2369,29 @@ body.press {
 	text-align: right
 }
 .single-wine header .links .share,
+.single-vine header .links .share,
 .weddings header .links .share {
 	float: right;
 	margin: 0
 }
 .single-wine header .links .share ul,
+.single-vine header .links .share ul,
 .weddings header .links .share ul {
 	margin: 0
 }
 .single-wine header .links .share ul li a,
+.single-vine header .links .share ul li a,
 .weddings header .links .share ul li a {
 	background-color: rgba(255, 255, 255, .75)
 }
 .single-wine article,
+.single-vine article,
 .weddings article {
 	max-width: 720px;
 	margin: 0 auto
 }
 .single-wine article h2,
+.single-vine article h2,
 .weddings article h2 {
 	text-align: center;
 	text-transform: uppercase;
@@ -2391,6 +2401,7 @@ body.press {
 	font-size: 1.65em
 }
 .single-wine article table tbody td,
+.single-vine article table tbody td,
 .weddings article table tbody td {
 	text-transform: uppercase;
 	letter-spacing: .05em;
@@ -2765,6 +2776,7 @@ body.press {
 	.info:after,
 	.info:before,
 	.single-wine main:after,
+	.single-vine main:after,
 	main:after,
 	main:before {
 		content: ''
@@ -3385,11 +3397,11 @@ body.press {
 		text-align: left;
 		margin: 1em 0 0 40%
 	}
-	.single-wine main {
+	.single-wine main, .single-vine main {
 		position: relative;
 		max-width: 100%
 	}
-	.single-wine main:after {
+	.single-wine main:after, .single-vine main:after {
 		display: block;
 		position: absolute;
 		bottom: 0;
@@ -3400,18 +3412,18 @@ body.press {
 		background-size: 200%;
 		opacity: .05
 	}
-	.single-wine header {
+	.single-wine header, .single-vine header {
 		padding-top: 30%;
 		margin: 0 0 3em
 	}
-	.single-wine header h1 {
+	.single-wine header h1, .single-vine header h1 {
 		top: 65%;
 		background: #FFF;
 		width: 60%;
 		max-width: 18em;
 		margin: 0 auto
 	}
-	.single-wine header .links {
+	.single-wine header .links, .single-vine header .links {
 		width: 96%;
 		padding: 1em 2%
 	}
