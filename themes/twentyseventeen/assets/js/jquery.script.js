@@ -1753,13 +1753,13 @@ $(function() {
     var t = "",
         o = $(".full-logo"),
         n = !!$(".home").count;
-    if (n && $.ajax("http://localhost/vineyard/wp-content/themes/twentyseventeen/assets/images/logo-explode.svg", function(e, n) {
+    if (n && $.ajax("http://kivavo.bike/wp-content/themes/twentyseventeen/assets/images/logo-explode.svg", function(e, n) {
             200 === n ? (t = $("<div></div>").html(e).find("svg"), t.children().each(function(e) {
                 o.append($(e))
             })) : $(o).addClass("bg")
         }, "GET", !1), !APP.browser.supportsSVG) {
         if ($("html").addClass("no-svg"), n) {
-            var a = $('<img src="http://localhost/vineyard/wp-content/themes/twentyseventeen/assets/images/logo-explode.svg" alt="Elements in our logo">'),
+            var a = $('<img src="http://kivavo.bike/wp-content/themes/twentyseventeen/assets/images/logo-explode.svg" alt="Elements in our logo">'),
                 r = $(".logo-breakdown");
             APP.browser.viewportSize < 3 ? a = $('<img src="/img/logo-explode-mobile.png" alt="Elements in our logo">') : r.find("ul").addClass("hidden"), r.find("svg").remove(), r.prepend(a)
         }
