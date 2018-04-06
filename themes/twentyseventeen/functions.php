@@ -627,6 +627,9 @@ function add_slug_body_class($classes) {
 	global $post;
 	if (isset($post)) {
 		$classes[] = $post->post_name;
+		if ($post->post_name == 'team') {
+			$classes[] = 'press';
+		}
 	}
 	return $classes;
 }
