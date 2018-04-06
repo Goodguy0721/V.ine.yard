@@ -25,7 +25,8 @@
 	<header role="banner" id="navigation">
 		<a href="/" class="logo">Château de Sours</a>
 		<nav role="navigation" class="jump-to">
-			<ul id="menu-main-navigation" class="menu"><li class="current-menu-item current_page_item"><a href="<?php echo get_home_url();?>">Home</a></li>
+			<ul id="menu-main-navigation" class="menu">
+				<li class="current-menu-item current_page_item"><a href="<?php echo get_home_url();?>">Home</a></li>
                 <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Wines')));?>">Our Wines</a></li>
                 <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Weddings')));?>">Our Team</a></li>
                 <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Journal')));?>">Media Center</a></li>

@@ -1988,7 +1988,12 @@ body.press {
 }
 .press main>section article {
 	padding: 0;
-	text-align: center
+	text-align: center;
+	background: #231f20;
+}
+.press main>section article h1 {
+	color: #fff;
+	padding: 50px 0 10px;
 }
 .press main>section article ul {
 	display: block;
