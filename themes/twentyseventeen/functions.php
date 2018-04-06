@@ -611,6 +611,14 @@ add_action('init', 'create_wines_post_type');
  * Remove admin bar
  */
 add_filter('show_admin_bar', '__return_false');
+
+/**
+ * Excerpt length
+ */
+function custom_excerpt_length($length) {
+	return $length;
+}
+add_filter('excerpt_length', 'custom_excerpt_length', 200);
 /**
  * Implement the Custom Header feature.
  */
