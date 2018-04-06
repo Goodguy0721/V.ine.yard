@@ -39,7 +39,7 @@
 			<li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Wines')));?>">Our Wines</a></li>
 			<li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Team')));?>">Our Team</a></li>
 			<li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Press')));?>">Media Center</a></li>
-			<li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact')));?>">Contact Us</a></li>
+			<li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact Us')));?>">Contact Us</a></li>
 		</ul>		
 	</nav>
 
