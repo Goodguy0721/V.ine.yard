@@ -563,6 +563,55 @@ function twentyseventeen_widget_tag_cloud_args( $args ) {
 add_filter( 'widget_tag_cloud_args', 'twentyseventeen_widget_tag_cloud_args' );
 
 /**
+ * Create post type - vines
+ */
+function create_vines_post_type() {
+	/**
+	 * Vines Post Type Resources
+	 */
+	$labels = array(
+		'name'               => __( 'Vines', 'tt' ),
+		'singular_name'      => __( 'Vines', 'tt' ),
+		'menu_name'          => __( 'Vines', 'tt' ),
+		'name_admin_bar'     => __( 'Vines', 'tt' ),
+		'add_new'            => __( 'Add New', 'tt' ),
+		'add_new_item'       => __( 'Add New Vine', 'tt' ),
+		'new_item'           => __( 'New Vine', 'tt' ),
+		'edit_item'          => __( 'Edit Vine', 'tt' ),
+		'view_item'          => __( 'View Vine', 'tt' ),
+		'all_items'          => __( 'All Products', 'tt' ),
+		'search_items'       => __( 'Search Vines', 'tt' ),
+		'parent_item_colon'  => __( 'Parent Vines:', 'tt' ),
+		'not_found'          => __( 'No Vines found.', 'tt' ),
+		'not_found_in_trash' => __( 'No Vines found in Trash.', 'tt' )
+	);
+
+	$args = array(
+		'labels'             => $labels,
+		'description'        => __( 'Description.', 'tt' ),
+		'public'             => true,
+		'publicly_queryable' => true,
+		'show_ui'            => true,
+		'show_in_menu'       => true,
+		'query_var'          => true,
+		'rewrite'            => array( 'slug' => 'vine' ),
+		'capability_type'    => 'post',
+		'has_archive'        => false,
+		'hierarchical'       => false,
+		'menu_position'      => null,
+    	'menu_icon'          => 'dashicons-admin-multisite',
+		'supports'           => array( 'title','revisions','editor','thumbnail','excerpt' )
+	);
+
+	register_post_type( 'vine', $args );
+}
+add_action('init', 'create_vines_post_type');
+
+/**
+ * Remove admin bar
+ */
+add_filter('show_admin_bar', '__return_false');
+/**
  * Implement the Custom Header feature.
  */
 require get_parent_theme_file_path( '/inc/custom-header.php' );
