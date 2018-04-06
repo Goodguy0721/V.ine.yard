@@ -28,9 +28,9 @@
 			<ul id="menu-main-navigation" class="menu">
 				<li class="current-menu-item current_page_item"><a href="<?php echo get_home_url();?>">Home</a></li>
                 <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Wines')));?>">Our Wines</a></li>
-                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Weddings')));?>">Our Team</a></li>
-                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Journal')));?>">Media Center</a></li>
-                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Visit')));?>">Contact Us</a></li>
+                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Team')));?>">Our Team</a></li>
+                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Press')));?>">Media Center</a></li>
+                <li><a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact')));?>">Contact Us</a></li>
             </ul>
         </nav>
 
