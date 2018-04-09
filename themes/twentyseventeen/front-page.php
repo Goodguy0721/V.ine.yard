@@ -115,7 +115,8 @@ get_header(); ?>
 			<span class="latitude">44.82360</span><span class="label">&deg; N</span>,
 			<span class="longitude">-0.28132</span><span class="label">&deg; W</span>
 		</p>
-		<p><em>Hard soil</em> that suits our <em>work ethic</em> and our <em>grapes</em> perfectly.</p>
+		<!-- <p><em>Hard soil</em> that suits our <em>work ethic</em> and our <em>grapes</em> perfectly.</p> -->
+		<p>Lorem ipsum dolor sit amet, purus a donec lectus suspendisse nibh.</p>
 		<span class="scroll-tip">Scroll</span>
 	</div>
 	<article>
@@ -167,11 +168,12 @@ get_header(); ?>
 <section id="the-name">
 	<div class="intro">
 		<h1>The Name</h1>
-		<p>A light touch &amp; enlightened approach.</p>
-
+		<!-- <p>A light touch &amp; enlightened approach.</p> -->
+		<p>Lorem ipsum dolor sit amet, purus a donec lectus suspendisse nibh.</p>
 		<article>
 			<div class="columns">
-				<p>The Lightfoot name goes back eight generations in Wolfville. Originating in northern England, it referred to the swift-footedness of our forebears who traditionally worked as messengers. At Lightfoot &amp; Wolfville we like to think we bring a light touch and enlightened approach to both the agricultural and artisanal parts of our work – letting the land offer up its innate best, without subjecting it to aggressive inputs; letting our wines benefit from classic winemaking methods, emphasizing gentle gravity production and natural wild-yeast fermentations.</p>
+				<!-- <p>The Lightfoot name goes back eight generations in Wolfville. Originating in northern England, it referred to the swift-footedness of our forebears who traditionally worked as messengers. At Lightfoot &amp; Wolfville we like to think we bring a light touch and enlightened approach to both the agricultural and artisanal parts of our work – letting the land offer up its innate best, without subjecting it to aggressive inputs; letting our wines benefit from classic winemaking methods, emphasizing gentle gravity production and natural wild-yeast fermentations.</p> -->
+				<p>Lorem ipsum dolor sit amet, purus a donec lectus suspendisse nibh. Justo ut dolor posuere bibendum, eu wisi. Velit ante integer,   tortor lacinia sed elit nullam vitae, est egestas. Dolor tempus parturient, sagittis odio amet pede volutpat gravida consectetuer, et nonummy egestas nullam, morbi semper vehicula nibh feugiat. Sed pede pede, purus aliquam sit eu hendrerit vestibulum, nulla erat maecenas, odio iusto vestibulum nulla dignissim, duis.</p>
 			</div>
 		</article>
 	</div>
@@ -218,7 +220,8 @@ get_header(); ?>
 <section id="the-vines" class="yield fullscreen parallax">
 	<div class="intro">
 		<h1>The Vines</h1>
-		<p>The most <em>diverse portfolio</em> of European vinifera in <em>Atlantic Canada</em>.</p>
+		<!-- <p>The most <em>diverse portfolio</em> of European vinifera in <em>Atlantic Canada</em>.</p> -->
+		<p>Lorem ipsum dolor sit amet, purus a donec lectus suspendisse nibh.</p>
 		<span class="scroll-tip">Scroll</span>
 
 		<figure class="zoom">
